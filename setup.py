@@ -13,7 +13,7 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
-    name = "structure_discovery",
+    name = "StructureDiscovery",
     version = "0.0.1",
     author = "Peter Rennert",
     author_email = "github@rennert.io",
