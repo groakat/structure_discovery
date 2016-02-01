@@ -13,18 +13,18 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
-    name = "colorbynumbers",
-    version = "0.1.0",
+    name = "structure_discovery",
+    version = "0.0.1",
     author = "Peter Rennert",
     author_email = "github@rennert.io",
-    description = ("A simple script to convert an RGB image into a color by numbers image"),
+    description = ("Implementation of paper 'Structure Discovery in Nonparametric Regression through Compositional Kernel Search' using pyGPs"),
     packages=find_packages(),
     #license = read('LICENSE.txt'),
-    keywords = "audio",
-    url = "https://github.com/groakat/colorbynumbers",
+    keywords = "Gaussian Process",
+    url = "https://github.com/groakat/structure_discovery",
     long_description=read('README.md'),
     classifiers=[
-        "Development Status :: 4 - Beta",
+        "Development Status :: 3 - Alpha",
         "Topic :: Utilities",
     ],
 )
